@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(234, 243, 245);
+    margin: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    width: 100%;
+    background-color: brown;
+    margin: 0px;
+    height: 90px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.weather-box{
+    width: 90%;
+    max-width: 900px;
+    background: linear-gradient(135deg,rgb(220, 110, 187),#5b548a);
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;  
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search-box{
+    border: none;
+    border-radius: 30px;
+    padding: 13px;
+    font-size: 25px;
+    outline: none;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search-box::placeholder{
+    font-size: 25px;
+}
+.search-btn:hover{
+   box-shadow: 5px 3px 10px rgb(24, 21, 21);
+}
+.search-icon{
+    width: 20px;
+}
+.search-btn{
+    border-radius: 50px;
+    padding: 15px 18px;
+    border: none;
+    margin-left: 5px;
+}
+.date{
+    color: white ;
+    text-align: center;
+    margin-bottom: -15px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wthr-img{
+   display: flex;
+   justify-content: center;
+}
+.temp{
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    font-size: 80px;
+    margin-top:-20px;
+} 
+.city{
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    font-size: 60px;
+    margin-top:-50px;
+} 
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.col{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    line-height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col div{
+    margin-left: 20px;
+    text-align: center;
+    line-height: 10px;
+   
+}
+.col img{
+    width: 50px;
+    height: 60px;
+    margin-left: 10px;
+}
+.forecast-container{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+  margin: 30px  ;
+}
+.forecast-day{
+    border: 1px solid rgb(65, 62, 62);
+    padding: 10px;
+}
